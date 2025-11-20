@@ -1,8 +1,7 @@
 ---
 import "../styles/global.css";
-import ThemeLoad from "../components/ThemeLoad.svelte";
 import Sidebar from "../components/Sidebar.svelte";
-import Background from "../components/Background.svelte";
+import Background from "../components/Background.astro";
 ---
 
 <html lang="en">
@@ -11,6 +10,17 @@ import Background from "../components/Background.svelte";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
 
     <!-- SEO -->
     <title>Vladimir Beliaev | Full Stack Engineer</title>
@@ -52,7 +62,10 @@ import Background from "../components/Background.svelte";
       content="https://placehold.co/1200x630/2563eb/ffffff?text=Vladimir+Beliaev"
     />
 
-    <ThemeLoad client:load />
+    <script is:inline>
+      const theme = localStorage.getItem("theme") || "LIGHT";
+      document.documentElement.setAttribute("data-theme", theme);
+    </script>
   </head>
   <body class="min-h-screen flex flex-col md:flex-row overflow-hidden">
     <Sidebar client:load />
