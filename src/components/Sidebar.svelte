@@ -7,6 +7,7 @@
     User,
     Layers,
     Briefcase,
+    FileUser,
   } from "lucide-svelte";
   import { uiState } from "../lib/ui.svelte";
 
@@ -99,12 +100,12 @@
         <Github class="size-5 md:size-6" />
       </a>
       <a
-        href="https://linkedin.com/in/vladimirbeliaev"
+        href="https://rxresu.me/kwazzartcreature/plw"
         target="_blank"
-        class="hidden btn btn-ghost btn-circle btn-sm md:btn-md"
+        class="btn btn-ghost btn-circle btn-sm md:btn-md"
         aria-label="LinkedIn"
       >
-        <Linkedin class="size-5 md:size-6" />
+        <FileUser class="size-5 md:size-6" />
       </a>
       <a
         href="mailto:kwazzartcreature@gmail.com"

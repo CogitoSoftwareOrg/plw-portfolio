@@ -1,0 +1,419 @@
+{
+  "basics": {
+    "name": "Vladimir Belyaev",
+    "headline": "Full-stack Engineer (Web & AI)",
+    "email": "kwazzartcreature@gmail.com",
+    "phone": "tg: @kwazzart",
+    "location": "Moscow",
+    "url": {
+      "label": "Portfolio",
+      "href": "https://plw.cogitosoftware.nl"
+    },
+    "customFields": [
+      {
+        "id": "sheklse838ylce3yctzbh97r",
+        "icon": "github",
+        "name": "GitHub",
+        "value": "https://github.com/kwazzartcreature"
+      },
+      {
+        "id": "bv21rg0tdhz90ywk2lla6igh",
+        "icon": "globe",
+        "name": "Website",
+        "value": "https://kwazzart.tech/"
+      }
+    ],
+    "picture": {
+      "url": "https://storage.rxresu.me/cm6rsmb0x0fim1492o28xsvql/pictures/nf955afg4ukjfi0s3wrzwj03.jpg",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "Full-stack engineer with a background in ML and data-driven systems. I design and build modern web products end-to-end: from fast, SEO-friendly frontends to scalable backends, infrastructure, and LLM-powered features. My philosophy is ship, ship, ship — delivering value quickly while keeping code quality and architecture under control. I thrive in small, cross-functional teams and early-stage products where I can own a wide scope: product discovery, implementation, deployment, and iteration."
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "mwac6jcnypgskvnghy4khie0",
+          "visible": true,
+          "institution": "Higher School of Economics — Computer Science Department",
+          "studyType": "Bachelor's Minor",
+          "area": "Machine Learning",
+          "score": "9.5 GPA",
+          "date": "Sep 2021 - May 2024",
+          "summary": "Built a strong foundation in machine learning and deep learning: from neural network internals and optimization methods to practical model training and evaluation.",
+          "url": {
+            "label": "hse-ml-minor",
+            "href": "https://electives.hse.ru/minor_intel/"
+          }
+        },
+        {
+          "id": "3wcja416ex4qun4sree0zgnw",
+          "visible": true,
+          "institution": "Higher School of Economics — Faculty of Business and Management",
+          "studyType": "Bachelor's Degree (on academic leave)",
+          "area": "Marketing and Market Analytics",
+          "score": "GPA 8/10",
+          "date": "Sep 2021 - current time",
+          "summary": "Focus on data-driven marketing, consumer behavior, and analytics. Combines quantitative thinking with product and business understanding, which I apply when designing and validating tech products.",
+          "url": {
+            "label": "hse-university",
+            "href": "https://www.hse.ru/en/"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "dy8z5cxz68z904w5abfsaabp",
+          "visible": true,
+          "company": "aielts",
+          "position": "Full-stack Developer",
+          "location": "Moscow / Remote",
+          "date": "Jun 2024 - current time",
+          "summary": "Worked in a small team of 4 IT professionals to deliver an IELTS preparation platform powered by speech recognition and LLMs. Led task breakdown and coordination, implemented the web application in SvelteKit, integrated backend logic and ML services (Whisper and OpenAI APIs), and deployed the product to the company server using Coolify.\n\nTech stack: SvelteKit, PocketBase with Go logic, FastAPI for ML services, LangChain for LLM orchestration, Docker, Coolify.",
+          "url": {
+            "label": "aielts.ru",
+            "href": "https://aielts.ru/welcome"
+          }
+        },
+        {
+          "id": "tdzb24qz2irzyhw94nqhf6ol",
+          "visible": true,
+          "company": "Freelance / Cogito Software",
+          "position": "Full-stack Engineer (Web & AI)",
+          "location": "Remote",
+          "date": "2024 - current time",
+          "summary": "Design and build end-to-end AI-driven web products for small teams and early-stage businesses. Own the full lifecycle: architecture, frontend, backend, LLM integration, infrastructure, and CI/CD. Delivered several production-ready systems, including AI storytelling, quiz generation for educators, CRM AI assistants, and internal knowledge bases.\n\nTech stack: SvelteKit, Astro, FastAPI, Node.js, Postgres, Redis, Meilisearch, LangChain, PydanticAI, Docker, GitHub Actions, Coolify, Hetzner.",
+          "url": {
+            "label": "Portfolio",
+            "href": "https://plw.cogitosoftware.nl"
+          }
+        },
+        {
+          "id": "doj1cathn8ua2ixrgdw2yvof",
+          "visible": false,
+          "company": "prod-express",
+          "position": "Web Developer",
+          "location": "Moscow",
+          "date": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "4uszegg5wprnq8z4fgaguqgn",
+          "visible": true,
+          "name": "Self-hosting & infrastructure tinkering",
+          "keywords": [
+            "raspberry-pi",
+            "coolify",
+            "linux",
+            "server-configuration",
+            "hetzner"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "3pye63te46k9mgyxe0ppufnh",
+          "visible": true,
+          "name": "English",
+          "description": "professional working proficiency",
+          "level": 4
+        },
+        {
+          "id": "nrzlyduxv8q8hr22h6dgatq6",
+          "visible": true,
+          "name": "Russian",
+          "description": "native",
+          "level": 5
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": []
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "i59hc6h0xq7s3stqc9atsx3y",
+          "visible": true,
+          "name": "YouStory.nl — AI Storytelling Platform",
+          "date": "2024",
+          "description": "Interactive AI storytelling platform where users co-create stories with LLMs.",
+          "summary": "Interactive platform where users co-create stories with AI. Built real-time text generation flows, branching narratives, and character consistency checks on top of custom LLM pipelines.\n\nStack: SvelteKit, Node.js, custom LLM pipelines, Docker, Coolify.",
+          "url": {
+            "label": "ys.cogitosoftware.nl",
+            "href": "https://ys.cogitosoftware.nl"
+          }
+        },
+        {
+          "id": "xk9diu0006zpt33emty12w13",
+          "visible": true,
+          "name": "Quizbee.academy — AI Quiz Generator",
+          "date": "2024",
+          "description": "Tool for educators that converts learning materials into quizzes using LLMs.",
+          "summary": "Tool for educators that converts lecture notes and PDFs into interactive quizzes. Implemented content parsing, question generation using LLMs, and progress tracking with basic analytics for students.\n\nStack: SvelteKit, FastAPI, Redis, PydanticAI, SOLID architecture principles.",
+          "url": {
+            "label": "quizbee.academy",
+            "href": "https://quizbee.academy"
+          }
+        },
+        {
+          "id": "36tq6ss8gaj6c2a4akxp3glf",
+          "visible": true,
+          "name": "Growplex.dev — AI for CRM Workflows",
+          "date": "2024",
+          "description": "AI layer for CRM systems to automate routine work for sales teams.",
+          "summary": "AI integration layer for CRM systems that automates customer data entry, sentiment tagging, and follow-up scheduling. Focused on reducing repetitive tasks for sales teams and making AI fit into existing workflows.\n\nStack: Astro, LangChain, Postgres.",
+          "url": {
+            "label": "growplex.dev",
+            "href": "https://growplex.dev"
+          }
+        },
+        {
+          "id": "arycciqzwak45qqg7qxv2hv0",
+          "visible": true,
+          "name": "LLMAgent.ru — Enterprise Knowledge Base Assistant",
+          "date": "2024",
+          "description": "Internal AI assistant for searching over company documentation with sources.",
+          "summary": "Internal AI assistant that ingests corporate documentation and answers employee questions with source-aware responses. Implemented ingestion pipelines, search over vector and text indexes, and role-based access control.\n\nStack: FastAPI, Elastic, Qdrant, Postgres.",
+          "url": {
+            "label": "llmagent.ru",
+            "href": "https://llmagent.ru"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "gacy9yxuwbprk91vq87qvxye",
+          "visible": true,
+          "name": "Web Development",
+          "description": "End-to-end web application development",
+          "level": 5,
+          "keywords": [
+            "JavaScript / TypeScript",
+            "Svelte / SvelteKit",
+            "Astro",
+            "React",
+            "Next.js",
+            "HTML / CSS",
+            "Tailwind",
+            "SPA / SSR / SSG",
+            "SEO optimization"
+          ]
+        },
+        {
+          "id": "3p25r37e31e0k0zxj3s7db0k",
+          "visible": true,
+          "name": "Backend & Architecture",
+          "description": "Server-side logic and system architecture",
+          "level": 4,
+          "keywords": [
+            "FastAPI",
+            "Node.js",
+            "Go",
+            "Python",
+            "Postgres",
+            "Redis",
+            "SQLite",
+            "Meilisearch",
+            "Elastic",
+            "Hexagonal Architecture",
+            "SOLID",
+            "API design"
+          ]
+        },
+        {
+          "id": "vfgscbfjy8wp946wzopyxh9m",
+          "visible": true,
+          "name": "LLM-based Development",
+          "description": "Building AI-powered products with modern LLMs",
+          "level": 4,
+          "keywords": [
+            "RAG",
+            "LangChain",
+            "PydanticAI",
+            "Custom agents",
+            "OpenAI API",
+            "DeepSeek",
+            "Claude",
+            "Prompt engineering",
+            "PyTorch"
+          ]
+        },
+        {
+          "id": "1z6h8vvf1popaupp92aueyqu",
+          "visible": true,
+          "name": "DevOps & Infrastructure",
+          "description": "CI/CD and self-hosted deployments",
+          "level": 4,
+          "keywords": [
+            "Git",
+            "GitHub Actions",
+            "CI/CD pipelines",
+            "Docker",
+            "Coolify",
+            "Linux",
+            "Hetzner",
+            "cloud / self-hosted deployments"
+          ]
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "pikachu",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#475569"
+    },
+    "typography": {
+      "font": {
+        "family": "Open Sans",
+        "subset": "latin",
+        "variants": ["regular"],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": "<p>it-eng</p>"
+  }
+}
