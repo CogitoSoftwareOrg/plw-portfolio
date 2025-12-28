@@ -1,5 +1,5 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Root from "../layouts/Root.astro";
 import ProfileCard from "../components/ProfileCard.astro";
 import TechStack from "../components/TechStack.astro";
 import Projects from "../components/Projects.astro";
@@ -28,7 +28,7 @@ import Projects from "../components/Projects.astro";
   });
 </script>
 
-<Layout>
+<Root>
   <div
     class="snap-y snap-proximity md:snap-mandatory h-screen overflow-y-scroll scroll-smooth pb-20 md:pb-0"
   >
@@ -53,4 +53,4 @@ import Projects from "../components/Projects.astro";
       <Projects />
     </section>
   </div>
-</Layout>
+</Root>

@@ -11,6 +11,12 @@ importers:
       '@astrojs/svelte':
         specifier: ^7.2.2
         version: 7.2.2(@types/node@24.10.1)(astro@5.15.9(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3))(jiti@2.6.1)(lightningcss@1.30.2)(svelte@5.43.12)(typescript@5.9.3)
+      '@fontsource/ibm-plex-mono':
+        specifier: ^5.2.7
+        version: 5.2.7
+      '@fontsource/outfit':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/space-grotesk':
         specifier: ^5.2.10
         version: 5.2.10
@@ -249,6 +255,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/ibm-plex-mono@5.2.7':
+    resolution: {integrity: sha512-MKAb8qV+CaiMQn2B0dIi1OV3565NYzp3WN5b4oT6LTkk+F0jR6j0ZN+5BKJiIhffDC3rtBULsYZE65+0018z9w==}
+
+  '@fontsource/outfit@5.2.8':
+    resolution: {integrity: sha512-rXC6g0MqD7cOBjht0bMqc43qM6lRqDLML9KXsmg9uykz0wLQhy8Z/ajrMG6iyoT3NJR+MYgU+OEHp7uHoTb+Yw==}
 
   '@fontsource/space-grotesk@5.2.10':
     resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
@@ -1923,6 +1935,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.12':
     optional: true
+
+  '@fontsource/ibm-plex-mono@5.2.7': {}
+
+  '@fontsource/outfit@5.2.8': {}
 
   '@fontsource/space-grotesk@5.2.10': {}
 

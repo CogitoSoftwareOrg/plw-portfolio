@@ -108,12 +108,14 @@
 }
 
 /* Fonts */
-@import "@fontsource/space-grotesk";
-@import "@fontsource/space-mono";
+/* @import "@fontsource/space-grotesk"; */
+/* @import "@fontsource/space-mono"; */
+@import "@fontsource/outfit";
+@import "@fontsource/ibm-plex-mono";
 
 @theme {
-  --font-display: "Space Grotesk", sans-serif;
-  --font-mono: "Space Mono", monospace;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
 }
 
 /* Custom Utilities */

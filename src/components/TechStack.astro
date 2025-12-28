@@ -4,49 +4,125 @@ const quadrants = [
     title: "WebDev",
     desc: "Modern, reactive frontends built for performance and SEO.",
     items: [
-      { name: "SvelteKit", icon: "devicon-svelte-plain", href: "" },
-      { name: "Astro", icon: "devicon-astro-plain", href: "" },
-      { name: "Tailwind", icon: "devicon-tailwindcss-plain", href: "" },
-      { name: "DaisyUI", icon: "devicon-daisyui-plain", href: "" },
-      { name: "NextJS", icon: "devicon-nextjs-plain", href: "" },
+      {
+        name: "SvelteKit",
+        icon: "devicon-svelte-plain",
+        href: "https://kit.svelte.dev/",
+      },
+      {
+        name: "Astro",
+        icon: "devicon-astro-plain",
+        href: "https://astro.build/",
+      },
+      {
+        name: "Tailwind",
+        icon: "devicon-tailwindcss-plain",
+        href: "https://tailwindcss.com/",
+      },
+      {
+        name: "DaisyUI",
+        icon: "devicon-daisyui-plain",
+        href: "https://daisyui.com/",
+      },
+      {
+        name: "NextJS",
+        icon: "devicon-nextjs-plain",
+        href: "https://nextjs.org/",
+      },
     ],
   },
   {
     title: "Backend",
     desc: "Scalable APIs and robust data management systems.",
     items: [
-      { name: "FastAPI", icon: "devicon-fastapi-plain", href: "" },
-      { name: "Node.js", icon: "devicon-nodejs-plain", href: "" },
-      { name: "Postgres", icon: "devicon-postgresql-plain", href: "" },
-      { name: "Meilisearch", icon: "fas fa-search", href: "" },
-      { name: "Hexagonal Architecture", icon: "fas fa-cubes", href: "" },
-      { name: "SOLID", icon: "fas fa-code", href: "" },
+      {
+        name: "FastAPI",
+        icon: "devicon-fastapi-plain",
+        href: "https://fastapi.tiangolo.com/",
+      },
+      {
+        name: "Node.js",
+        icon: "devicon-nodejs-plain",
+        href: "https://nodejs.org/",
+      },
+      {
+        name: "Postgres",
+        icon: "devicon-postgresql-plain",
+        href: "https://www.postgresql.org/",
+      },
+      {
+        name: "Meilisearch",
+        icon: "fas fa-search",
+        href: "https://www.meilisearch.com/",
+      },
+      {
+        name: "Hexagonal Architecture",
+        icon: "fas fa-cubes",
+        href: "https://alistair.cockburn.us/hexagonal-architecture/",
+      },
+      {
+        name: "SOLID",
+        icon: "fas fa-code",
+        href: "https://en.wikipedia.org/wiki/SOLID",
+      },
     ],
   },
   {
     title: "Infrastructure",
     desc: "Reliable deployment pipelines and cloud orchestration.",
     items: [
-      { name: "Docker", icon: "devicon-docker-plain", href: "" },
-      { name: "Coolify", icon: "fas fa-cloud", href: "" },
+      {
+        name: "Docker",
+        icon: "devicon-docker-plain",
+        href: "https://www.docker.com/",
+      },
+      { name: "Coolify", icon: "fas fa-cloud", href: "https://coolify.io/" },
       {
         name: "GitHub Actions",
         icon: "devicon-githubactions-plain",
-        href: "",
+        href: "https://github.com/features/actions",
       },
-      { name: "Linux", icon: "devicon-linux-plain", href: "" },
-      { name: "Hetzner", icon: "devicon-linux-plain", href: "" },
+      {
+        name: "Linux",
+        icon: "devicon-linux-plain",
+        href: "https://www.linux.org/",
+      },
+      {
+        name: "Hetzner",
+        icon: "devicon-linux-plain",
+        href: "https://www.hetzner.com/",
+      },
     ],
   },
   {
     title: "LLM / AI",
     desc: "Integrating state-of-the-art models into practical workflows.",
     items: [
-      { name: "LangChain", icon: "fas fa-brain", href: "" },
-      { name: "Pydantic AI", icon: "fas fa-robot", href: "" },
-      { name: "Custom Agents", icon: "fas fa-cogs", href: "" },
-      { name: "RAG", icon: "fas fa-database", href: "" },
-      { name: "Pytorch", icon: "devicon-pytorch-plain", href: "" },
+      {
+        name: "LangChain",
+        icon: "fas fa-brain",
+        href: "https://www.langchain.com/",
+      },
+      {
+        name: "Pydantic AI",
+        icon: "fas fa-robot",
+        href: "https://ai.pydantic.dev/",
+      },
+      {
+        name: "Custom Agents",
+        icon: "fas fa-cogs",
+        href: "#",
+      },
+      {
+        name: "RAG",
+        icon: "fas fa-database",
+        href: "#",
+      },
+      {
+        name: "Pytorch",
+        icon: "devicon-pytorch-plain",
+        href: "https://pytorch.org/",
+      },
     ],
   },
 ];
@@ -72,10 +148,17 @@ const quadrants = [
 
           <div class="grid grid-cols-2 gap-4 mt-auto">
             {quadrant.items.map((item) => (
-              <div class="flex items-center gap-3 text-base-content/70 hover:text-primary transition-colors">
-                <i class={`${item.icon} text-lg`} />
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 text-base-content/70 hover:text-primary transition-colors group"
+              >
+                <i
+                  class={`${item.icon} text-lg group-hover:scale-110 transition-transform`}
+                />
                 <span class="text-sm">{item.name}</span>
-              </div>
+              </a>
             ))}
           </div>
         </div>

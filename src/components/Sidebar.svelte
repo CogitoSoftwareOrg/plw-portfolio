@@ -24,11 +24,11 @@
   class="fixed bottom-0 left-0 w-full h-16 md:w-20 md:h-screen bg-base-100 border-t md:border-t-0 md:border-r border-base-content/10 z-50 flex md:flex-col justify-between items-center px-6 md:px-0 md:py-8"
 >
   <div class="hidden md:flex flex-col items-center gap-4">
-    <div
-      class="w-10 h-10 bg-primary/20 rounded-md flex items-center justify-center text-primary font-bold"
-    >
-      plw
-    </div>
+    <img
+      class="size-12 bg-primary/20 rounded-md flex items-center justify-center text-primary font-bold"
+      src="/favicon/android-chrome-512x512.png"
+      alt="Vladimir Beliaev"
+    />
   </div>
 
   <nav
