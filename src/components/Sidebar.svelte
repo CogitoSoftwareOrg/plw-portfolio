@@ -38,21 +38,21 @@
     <div class="hidden md:flex md:flex-col gap-8 text-sm tracking-wider">
       <button
         onclick={() => scrollToSection("profile")}
-        class="hover:text-primary transition-colors {uiState.activeSection ===
+        class="cursor-pointer hover:text-primary transition-colors {uiState.activeSection ===
         'profile'
           ? 'text-primary font-bold'
           : 'text-base-content/60'}">/me</button
       >
       <button
         onclick={() => scrollToSection("stack")}
-        class="hover:text-primary transition-colors {uiState.activeSection ===
+        class="cursor-pointer hover:text-primary transition-colors {uiState.activeSection ===
         'stack'
           ? 'text-primary font-bold'
           : 'text-base-content/60'}">/stack</button
       >
       <button
         onclick={() => scrollToSection("projects")}
-        class="hover:text-primary transition-colors {uiState.activeSection ===
+        class="cursor-pointer hover:text-primary transition-colors {uiState.activeSection ===
         'projects'
           ? 'text-primary font-bold'
           : 'text-base-content/60'}">/work</button
